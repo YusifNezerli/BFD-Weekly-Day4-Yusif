@@ -1,33 +1,43 @@
 .fon{
-    height: 742px;
-    background: rgb(237,70,47);
-    background: linear-gradient(rgb(233, 23, 4) 0%, rgb(164, 49, 114) 35%, rgb(11, 38, 213) 100%)
+    height: 760px;
+    
+    background: linear-gradient(rgb(225, 220, 240) 0%, rgb(118, 112, 198) 35%, rgb(36, 61, 226) 100%)
 }
 
-.sekil{
-    margin-left: 150px;
+
+.olculogo{
+    width: 200px;
 }
-.sekil1{
-    margin-top: 30px;
-    margin-left: 150px;
+
+.sekil2{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px ;
+    padding-top: 20px;
+    width: 250px;
+
+}
+.text{
+    display: flex;
+
 }
 
 .text1{
     color: white;
+    display: flex;
+    flex-direction: column;
     width: 580px;
     text-align: justify;
     font-family:"Calibri";
-    margin-top: -240px;
-    margin-left: 290px;
-    padding-left: 110px;
+    padding-top: 30px;
+    padding-left: 30px;
     font-size: 500;
 }
 
 .button1{
     display: flex;
-    justify-content:right;
-    margin-top: -245px;
-    margin-right: 155px;
+    justify-content: space-between;
+    padding-left: 300px;
     font-size: 900;
     transition-duration: 0.4s;
     
@@ -47,7 +57,7 @@
     cursor: pointer;
 }
 .btn-2:hover {
-    background:linear-gradient(rgb(240, 45, 19) 0%, rgba(150,50,106,1) 35%, rgb(76, 96, 230) 100%);
+    background: linear-gradient(rgb(225, 220, 240) 0%, rgb(118, 112, 198) 35%, rgb(11, 38, 213) 100%);
     color: white;
   }
 
@@ -65,7 +75,7 @@
     cursor: pointer;
 }
 .btn-1:hover {
-    background:linear-gradient(rgb(240, 45, 19) 0%, rgba(150,50,106,1) 35%, rgb(76, 96, 230) 100%);
+    background: linear-gradient(rgb(225, 220, 240) 0%, rgb(118, 112, 198) 35%, rgb(11, 38, 213) 100%);
     color: white;
   }
 
@@ -83,7 +93,7 @@
     cursor: pointer;
 }
 .btn-3:hover {
-    background:linear-gradient(rgb(240, 45, 19) 0%, rgba(150,50,106,1) 35%, rgb(76, 96, 230) 100%);
+    background: linear-gradient(rgb(225, 220, 240) 0%, rgb(118, 112, 198) 35%, rgb(11, 38, 213) 100%);
     color: white;
   }
 
@@ -101,7 +111,7 @@
     cursor: pointer;
 }
 .btn-4:hover {
-    background:linear-gradient(rgb(240, 45, 19) 0%, rgba(150,50,106,1) 35%, rgb(76, 96, 230) 100%);
+    background: linear-gradient(rgb(225, 220, 240) 0%, rgb(118, 112, 198) 35%, rgb(11, 38, 213) 100%);
     color: white;
   }
 
@@ -119,15 +129,18 @@
     cursor: pointer;
 }
 .btn-5:hover {
-    background:linear-gradient(rgb(240, 45, 19) 0%, rgba(150,50,106,1) 35%, rgb(76, 96, 230) 100%);
+    background: linear-gradient(rgb(225, 220, 240) 0%, rgb(118, 112, 198) 35%, rgb(11, 38, 213) 100%);
     color: white;
+    
   }
 
 .albums{
-    margin-top: 380px;
-    margin-left: 90px;
     display: flex; 
-   
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 110px;
+    padding-left: 60px;
+    padding-right: 60px;
 
 } 
 
@@ -141,7 +154,7 @@
   width: 200px;
   float:left;
   padding:1px;
-  margin-left: 20px;
+  margin-left: 10px;
   border-radius: 10px;
 }
 
@@ -154,13 +167,8 @@
     transform: scale(1.1);
 }
 
-ul {overflow: hidden;}
-ul li {display:inline-flex;margin-right: 20px;}
-.clear {clear: both;}
-
 .text3{
     color: white;
-    /* margin-left: 300px; */
     display: flex;
     margin-top: -40px;
     text-align: center;
@@ -170,27 +178,282 @@ ul li {display:inline-flex;margin-right: 20px;}
 
 }
 .xett{
-    margin-top: -35px;
+    margin-top: -30px;
 }
 
-.s{
-    margin-left: 200px;
+.music1{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+    
 }
-.ss{
-    margin-left: 180px;
+.music2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-.sss{
-    margin-left: 185px;
+.music3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-.ssss{
-    margin-left: 125px;
+.music4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-.sssss{
-    margin-left: 80px;
+.music5{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
 }
 
 .text4{
-    margin-top: 30px;
+    margin-top: -10px;
     color: white;
     text-align: center;
 }
+
+.logo{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+@media (min-width: 375px) and (max-width: 767px)
+{
+  .logo{
+    display: block;
+    width: 100px;
+    
+}
+.olculogo{
+    
+    padding-left: 200px;
+    justify-content: center;
+
+}
+ .button1{
+  justify-content: center;
+ }
+
+ .text{
+    display: block;
+    text-align: center;
+ }
+ .sekil2{
+    padding-left: 180px;
+ }
+.text1{
+    text-align: center;
+
+}
+.text11{
+    width: 350px;
+    text-align: justify;
+    padding-left: 100px;
+
+}
+.albums{
+    flex-direction: column;
+    width: 300px;
+    padding-left: 150px;
+    
+}
+
+.buyutec{
+    width: 300px;
+    margin: 0 auto;
+
+}
+.name{
+    width: 300px;
+    text-align: center;
+    
+    
+}
+.end{
+    display: block;
+    padding-left: 150px;
+    width: 300px;
+    padding-top: 10px;
+}
+.text4{
+    text-align: center;
+}
+.fon{
+    background-size: cover;
+    height: auto;
+    background-color: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+.fon{
+    background-size: cover;
+    height: auto;
+    background-color: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+}
+
+.logo{
+   display: block;
+
+
+}
+
+.olculogo{
+    width: 160px;
+    padding-left: 370px;
+   
+}
+.text{
+    padding-left: 60px;
+ }
+
+.sekil2{
+    width: 200px;
+    height: 200px;
+}
+.text1{
+   
+    margin-top: -30px;
+
+}
+
+.text11{
+    width: 350px;
+    margin-top: auto; 
+    
+}
+
+.button1{
+    width: 300px;
+    justify-content: center;
+
+}
+
+.albums{
+    padding-top: 20px;
+    width: 800px;
+   
+
+}
+
+.buyutec{
+    width: 100px;
+   
+
+}
+.name{
+    
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 10px;
+     
+}
+
+.end{
+    padding-top: 10px;
+    width: 910px ;
+    
+
+
+}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1440px){  
+
+.fon{
+    background-size: cover;
+    height: auto;
+    background-color: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+}
+
+.logo{
+    justify-content: center;
+  
+
+}
+
+.olculogo{
+    width: 160px;
+    margin-left: -250px;
+   
+   
+}
+.button1{
+    width: 300px;
+    padding-left: 90px;
+
+}
+
+.text{
+    padding-left: 60px;
+ }
+
+.sekil2{
+    width: 200px;
+    height: 200px;
+    padding-left: 120px;
+}
+.text1{
+    margin-top: -30px;
+    padding-left: 110px;
+
+}
+
+.text11{
+    width: 350px;
+    margin-top: auto; 
+    
+}
+
+
+
+.albums{
+    padding-top: 20px;
+    width: 800px;
+   margin: 0 auto;
+
+}
+
+.buyutec{
+    width: 100px;
+   
+
+}
+.name{
+    
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 10px;
+     
+}
+
+.end{
+    padding-top: 10px;
+    width: 910px ;
+    margin: 0 auto;
+    
+
+
+}
+
+}
+
+
+
