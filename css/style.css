@@ -183,20 +183,19 @@
 
 .music1{
     display: flex;
-   justify-content: center;
    flex-direction: column;
    text-align: center;
     
 }
 .music2{
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
     text-align: center;
 }
 .music3{
     display: flex;
-    justify-content: center;
+   
     flex-direction: column;
     text-align: center;
 }
@@ -223,7 +222,6 @@
 
     display: flex;
     justify-content: space-around;
-    
 }
 
 
@@ -231,59 +229,68 @@
 {
   .logo{
     display: block;
-    width: 100px;
+    text-align: center;
+
     
 }
 .olculogo{
+    width: 100px;
+    margin: 0 auto;
     
-    padding-left: 200px;
-    justify-content: center;
 
 }
  .button1{
-  justify-content: center;
+  padding-left: 0px;
+  flex-direction: column;
  }
-
+ .btn-1{
+    width: 100%;
+ }
+ .btn-2{
+    width: 100%;
+ }
+ .btn-3{
+    width: 100%;
+ }
+ .btn-4{
+    width: 100%;
+ }
+ .btn-5{
+    width: 100%;
+ }
  .text{
     display: block;
     text-align: center;
  }
  .sekil2{
-    padding-left: 180px;
+    padding-left: 0px;
  }
 .text1{
-    text-align: center;
+    padding-left: 0px;
+    display: block;
+    width: 100%;
 
 }
 .text11{
-    width: 350px;
+    
     text-align: justify;
-    padding-left: 100px;
 
 }
 .albums{
     flex-direction: column;
-    width: 300px;
-    padding-left: 150px;
     
 }
 
-.buyutec{
-    width: 300px;
-    margin: 0 auto;
-
-}
 .name{
-    width: 300px;
-    text-align: center;
-    
-    
+   
+    padding-left: 0px;
+   text-align: center;
+
 }
 .end{
     display: block;
-    padding-left: 150px;
-    width: 300px;
     padding-top: 10px;
+    text-align: center;
 }
 .text4{
     text-align: center;
@@ -307,18 +314,15 @@
 
 .logo{
    display: block;
+   text-align: center;
 
 
 }
 
 .olculogo{
     width: 160px;
-    padding-left: 370px;
-   
 }
-.text{
-    padding-left: 60px;
- }
+
 
 .sekil2{
     width: 200px;
@@ -337,14 +341,13 @@
 }
 
 .button1{
-    width: 300px;
-    justify-content: center;
+    padding-left: 0px;
 
 }
 
 .albums{
     padding-top: 20px;
-    width: 800px;
+  
    
 
 }
@@ -365,9 +368,6 @@
 
 .end{
     padding-top: 10px;
-    width: 910px ;
-    
-
 
 }
 
